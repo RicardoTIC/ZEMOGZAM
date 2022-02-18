@@ -1,0 +1,11 @@
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.csprojAssemblyReference.cache
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.Properties.Resources.resources
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.GenerateResource.cache
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\bin\Debug\ZEMOGZAMMODIFICACIONES.exe.config
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\bin\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\bin\Debug\ZEMOGZAMMODIFICACIONES.pdb
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.pdb
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.frmPrincipal.resources
+C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajes.resources

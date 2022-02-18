@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZEMOGZAMMODIFICACIONES", "ZEMOGZAMMODIFICACIONES.csproj", "{97DC0253-096A-4981-A5F7-A8FD4126D52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{BDFA3CF8-A5DE-4B0F-9E83-ED47C39085FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97DC0253-096A-4981-A5F7-A8FD4126D52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DC0253-096A-4981-A5F7-A8FD4126D52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DC0253-096A-4981-A5F7-A8FD4126D52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DC0253-096A-4981-A5F7-A8FD4126D52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFA3CF8-A5DE-4B0F-9E83-ED47C39085FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFA3CF8-A5DE-4B0F-9E83-ED47C39085FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFA3CF8-A5DE-4B0F-9E83-ED47C39085FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFA3CF8-A5DE-4B0F-9E83-ED47C39085FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12D288AC-725F-4B00-A8E8-2254C4B6A0C3}
+	EndGlobalSection
+EndGlobal
