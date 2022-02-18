@@ -54,6 +54,8 @@ namespace ZEMOGZAMMODIFICACIONES
 
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
+            Login.frmLogin frmLogin = new Login.frmLogin();
+            frmLogin.Show(); 
             this.Close();
         }
 

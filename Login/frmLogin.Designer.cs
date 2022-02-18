@@ -62,6 +62,7 @@
             this.txtUsuarios.Name = "txtUsuarios";
             this.txtUsuarios.Size = new System.Drawing.Size(222, 20);
             this.txtUsuarios.TabIndex = 2;
+            this.txtUsuarios.Text = "RicardoH";
             // 
             // txtContrasena
             // 
@@ -70,6 +71,7 @@
             this.txtContrasena.PasswordChar = '*';
             this.txtContrasena.Size = new System.Drawing.Size(222, 20);
             this.txtContrasena.TabIndex = 3;
+            this.txtContrasena.Text = "herrera";
             // 
             // btnIngresar
             // 
