@@ -8,16 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZEMOGZAMMODIFICACIONES.Viajes;
-
+using Modelo;
 namespace ZEMOGZAMMODIFICACIONES
 {
     public partial class frmPrincipal : Form
     {
         private int childFormNumber = 0;
 
-        public frmPrincipal()
+        public frmPrincipal(Usuario user)
         {
             InitializeComponent();
+            lblInformacion.Text = "Usuario : " + user.nombre + " Tipo de usuario " + user.id_grupo;
+
         }
 
         private void ShowNewForm(object sender, EventArgs e)

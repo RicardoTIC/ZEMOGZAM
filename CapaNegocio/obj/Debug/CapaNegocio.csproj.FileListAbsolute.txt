@@ -1,0 +1,11 @@
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\Modelo.dll
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\bin\Debug\Modelo.pdb
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Ricardo\Documents\ZEMOG\CapaNegocio\obj\Debug\CapaNegocio.pdb

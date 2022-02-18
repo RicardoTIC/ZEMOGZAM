@@ -1,2 +1,8 @@
 C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
 C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\bin\Debug\Modelo.dll
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\obj\Debug\Modelo.dll
+C:\Users\Ricardo\Documents\ZEMOG\Modelo\obj\Debug\Modelo.pdb

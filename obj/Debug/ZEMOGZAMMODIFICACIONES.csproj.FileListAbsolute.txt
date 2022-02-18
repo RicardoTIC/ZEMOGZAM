@@ -9,3 +9,23 @@ C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMM
 C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.pdb
 C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.frmPrincipal.resources
 C:\Users\Ricardo Herrera\source\repos\ZEMOGZAMMODIFICACIONES\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajes.resources
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.exe.config
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.pdb
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.frmPrincipal.resources
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Properties.Resources.resources
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajes.resources
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.GenerateResource.cache
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.pdb
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\CapaNegocio.dll
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Modelo.dll
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\CapaDatos.dll
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\CapaNegocio.pdb
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Modelo.pdb
+C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\CapaDatos.pdb
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CopyComplete
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Login.frmLogin.resources
