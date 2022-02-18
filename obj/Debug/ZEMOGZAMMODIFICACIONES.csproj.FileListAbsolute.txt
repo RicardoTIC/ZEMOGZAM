@@ -29,3 +29,22 @@ C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Modelo.pdb
 C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\CapaDatos.pdb
 C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CopyComplete
 C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Login.frmLogin.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.exe.config
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\ZEMOGZAMMODIFICACIONES.pdb
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\CapaNegocio.dll
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\Modelo.dll
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\CapaDatos.dll
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\CapaNegocio.pdb
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\Modelo.pdb
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\bin\Debug\CapaDatos.pdb
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csprojAssemblyReference.cache
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.frmPrincipal.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Login.frmLogin.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Properties.Resources.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajes.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.GenerateResource.cache
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.csproj.CopyComplete
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.exe
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.pdb

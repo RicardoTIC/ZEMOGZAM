@@ -18,6 +18,8 @@ namespace Modelo
         public string buscador { get; set; }
         public string nombre { get; set; }
 
+        public bool conectado { get; set; }
+
         //Metodo constructor
         public Usuario() { }
 
