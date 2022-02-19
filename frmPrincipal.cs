@@ -113,6 +113,9 @@ namespace ZEMOGZAMMODIFICACIONES
         {
             MessageBox.Show("Abriendo");
             frmDetalleViajes viajes = new frmDetalleViajes();
+            
+            
+            
             viajes.MdiParent = this;
 
             viajes.Show();

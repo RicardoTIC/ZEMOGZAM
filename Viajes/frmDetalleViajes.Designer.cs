@@ -28,26 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtFolio = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtKilometros = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtSucursal = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtDestino = new System.Windows.Forms.TextBox();
+            this.txtOrigen = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNumbreRuta = new System.Windows.Forms.TextBox();
+            this.txtDolly = new System.Windows.Forms.TextBox();
+            this.txtRemolque2 = new System.Windows.Forms.TextBox();
+            this.txtRemolque1 = new System.Windows.Forms.TextBox();
+            this.txtFechaCaptura = new System.Windows.Forms.TextBox();
+            this.txtFechaCita = new System.Windows.Forms.TextBox();
+            this.txtUnidad = new System.Windows.Forms.TextBox();
+            this.txtCodigoArea = new System.Windows.Forms.TextBox();
+            this.txtNumeroViaje = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -67,6 +68,26 @@
             this.txtFechaInicio = new System.Windows.Forms.DateTimePicker();
             this.ListaDeViajes = new System.Windows.Forms.DataGridView();
             this.label17 = new System.Windows.Forms.Label();
+            this.lblIdRuta = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.txtExpedicion = new System.Windows.Forms.TextBox();
+            this.txtOperador = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtEstatusViaje = new System.Windows.Forms.TextBox();
+            this.txtUsuarioAlta = new System.Windows.Forms.TextBox();
+            this.txtTipoCobro = new System.Windows.Forms.TextBox();
+            this.txtFactura = new System.Windows.Forms.TextBox();
+            this.txtNumeroGuia = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.toolVenta = new System.Windows.Forms.ToolTip(this.components);
+            this.toolFlete = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaDeViajes)).BeginInit();
@@ -74,25 +95,43 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox14);
+            this.groupBox1.Controls.Add(this.label27);
+            this.groupBox1.Controls.Add(this.label26);
+            this.groupBox1.Controls.Add(this.txtNumeroGuia);
+            this.groupBox1.Controls.Add(this.txtFactura);
+            this.groupBox1.Controls.Add(this.txtTipoCobro);
+            this.groupBox1.Controls.Add(this.txtUsuarioAlta);
+            this.groupBox1.Controls.Add(this.txtEstatusViaje);
+            this.groupBox1.Controls.Add(this.txtDireccion);
+            this.groupBox1.Controls.Add(this.txtOperador);
+            this.groupBox1.Controls.Add(this.txtExpedicion);
+            this.groupBox1.Controls.Add(this.label25);
+            this.groupBox1.Controls.Add(this.label24);
+            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.label19);
+            this.groupBox1.Controls.Add(this.lblIdRuta);
+            this.groupBox1.Controls.Add(this.txtFolio);
             this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.textBox13);
+            this.groupBox1.Controls.Add(this.txtKilometros);
             this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.txtSucursal);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.textBox11);
-            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.txtDestino);
+            this.groupBox1.Controls.Add(this.txtOrigen);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNumbreRuta);
+            this.groupBox1.Controls.Add(this.txtDolly);
+            this.groupBox1.Controls.Add(this.txtRemolque2);
+            this.groupBox1.Controls.Add(this.txtRemolque1);
+            this.groupBox1.Controls.Add(this.txtFechaCaptura);
+            this.groupBox1.Controls.Add(this.txtFechaCita);
+            this.groupBox1.Controls.Add(this.txtUnidad);
+            this.groupBox1.Controls.Add(this.txtCodigoArea);
+            this.groupBox1.Controls.Add(this.txtNumeroViaje);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
@@ -111,12 +150,12 @@
             this.groupBox1.Text = "Datos";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox14
+            // txtFolio
             // 
-            this.textBox14.Location = new System.Drawing.Point(458, 256);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 20);
-            this.textBox14.TabIndex = 27;
+            this.txtFolio.Location = new System.Drawing.Point(458, 256);
+            this.txtFolio.Name = "txtFolio";
+            this.txtFolio.Size = new System.Drawing.Size(100, 20);
+            this.txtFolio.TabIndex = 27;
             // 
             // label14
             // 
@@ -127,12 +166,12 @@
             this.label14.TabIndex = 26;
             this.label14.Text = "Folio";
             // 
-            // textBox13
+            // txtKilometros
             // 
-            this.textBox13.Location = new System.Drawing.Point(458, 224);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 25;
+            this.txtKilometros.Location = new System.Drawing.Point(458, 224);
+            this.txtKilometros.Name = "txtKilometros";
+            this.txtKilometros.Size = new System.Drawing.Size(100, 20);
+            this.txtKilometros.TabIndex = 25;
             // 
             // label13
             // 
@@ -143,12 +182,12 @@
             this.label13.TabIndex = 24;
             this.label13.Text = "Kilometros";
             // 
-            // textBox12
+            // txtSucursal
             // 
-            this.textBox12.Location = new System.Drawing.Point(458, 190);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 23;
+            this.txtSucursal.Location = new System.Drawing.Point(458, 190);
+            this.txtSucursal.Name = "txtSucursal";
+            this.txtSucursal.Size = new System.Drawing.Size(100, 20);
+            this.txtSucursal.TabIndex = 23;
             // 
             // label12
             // 
@@ -159,19 +198,19 @@
             this.label12.TabIndex = 22;
             this.label12.Text = "Sucursal";
             // 
-            // textBox11
+            // txtDestino
             // 
-            this.textBox11.Location = new System.Drawing.Point(458, 146);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 21;
+            this.txtDestino.Location = new System.Drawing.Point(458, 146);
+            this.txtDestino.Name = "txtDestino";
+            this.txtDestino.Size = new System.Drawing.Size(279, 20);
+            this.txtDestino.TabIndex = 21;
             // 
-            // textBox10
+            // txtOrigen
             // 
-            this.textBox10.Location = new System.Drawing.Point(458, 104);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 20;
+            this.txtOrigen.Location = new System.Drawing.Point(458, 104);
+            this.txtOrigen.Name = "txtOrigen";
+            this.txtOrigen.Size = new System.Drawing.Size(279, 20);
+            this.txtOrigen.TabIndex = 20;
             // 
             // label11
             // 
@@ -191,68 +230,69 @@
             this.label10.TabIndex = 18;
             this.label10.Text = "Origen";
             // 
-            // textBox9
+            // txtNumbreRuta
             // 
-            this.textBox9.Location = new System.Drawing.Point(458, 72);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(172, 20);
-            this.textBox9.TabIndex = 17;
+            this.txtNumbreRuta.Location = new System.Drawing.Point(458, 72);
+            this.txtNumbreRuta.Name = "txtNumbreRuta";
+            this.txtNumbreRuta.Size = new System.Drawing.Size(279, 20);
+            this.txtNumbreRuta.TabIndex = 17;
+            this.txtNumbreRuta.MouseHover += new System.EventHandler(this.txtNumbreRuta_MouseHover);
             // 
-            // textBox8
+            // txtDolly
             // 
-            this.textBox8.Location = new System.Drawing.Point(151, 259);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 16;
+            this.txtDolly.Location = new System.Drawing.Point(151, 259);
+            this.txtDolly.Name = "txtDolly";
+            this.txtDolly.Size = new System.Drawing.Size(100, 20);
+            this.txtDolly.TabIndex = 16;
             // 
-            // textBox7
+            // txtRemolque2
             // 
-            this.textBox7.Location = new System.Drawing.Point(151, 224);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 15;
+            this.txtRemolque2.Location = new System.Drawing.Point(151, 224);
+            this.txtRemolque2.Name = "txtRemolque2";
+            this.txtRemolque2.Size = new System.Drawing.Size(100, 20);
+            this.txtRemolque2.TabIndex = 15;
             // 
-            // textBox6
+            // txtRemolque1
             // 
-            this.textBox6.Location = new System.Drawing.Point(151, 190);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 14;
+            this.txtRemolque1.Location = new System.Drawing.Point(151, 190);
+            this.txtRemolque1.Name = "txtRemolque1";
+            this.txtRemolque1.Size = new System.Drawing.Size(100, 20);
+            this.txtRemolque1.TabIndex = 14;
             // 
-            // textBox5
+            // txtFechaCaptura
             // 
-            this.textBox5.Location = new System.Drawing.Point(151, 150);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 13;
+            this.txtFechaCaptura.Location = new System.Drawing.Point(151, 150);
+            this.txtFechaCaptura.Name = "txtFechaCaptura";
+            this.txtFechaCaptura.Size = new System.Drawing.Size(191, 20);
+            this.txtFechaCaptura.TabIndex = 13;
             // 
-            // textBox4
+            // txtFechaCita
             // 
-            this.textBox4.Location = new System.Drawing.Point(151, 107);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 12;
+            this.txtFechaCita.Location = new System.Drawing.Point(151, 107);
+            this.txtFechaCita.Name = "txtFechaCita";
+            this.txtFechaCita.Size = new System.Drawing.Size(191, 20);
+            this.txtFechaCita.TabIndex = 12;
             // 
-            // textBox3
+            // txtUnidad
             // 
-            this.textBox3.Location = new System.Drawing.Point(151, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 11;
+            this.txtUnidad.Location = new System.Drawing.Point(151, 72);
+            this.txtUnidad.Name = "txtUnidad";
+            this.txtUnidad.Size = new System.Drawing.Size(100, 20);
+            this.txtUnidad.TabIndex = 11;
             // 
-            // textBox2
+            // txtCodigoArea
             // 
-            this.textBox2.Location = new System.Drawing.Point(458, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 10;
+            this.txtCodigoArea.Location = new System.Drawing.Point(458, 29);
+            this.txtCodigoArea.Name = "txtCodigoArea";
+            this.txtCodigoArea.Size = new System.Drawing.Size(100, 20);
+            this.txtCodigoArea.TabIndex = 10;
             // 
-            // textBox1
+            // txtNumeroViaje
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 9;
+            this.txtNumeroViaje.Location = new System.Drawing.Point(151, 29);
+            this.txtNumeroViaje.Name = "txtNumeroViaje";
+            this.txtNumeroViaje.Size = new System.Drawing.Size(100, 20);
+            this.txtNumeroViaje.TabIndex = 9;
             // 
             // label9
             // 
@@ -418,6 +458,7 @@
             this.ListaDeViajes.Name = "ListaDeViajes";
             this.ListaDeViajes.Size = new System.Drawing.Size(1341, 246);
             this.ListaDeViajes.TabIndex = 0;
+            this.ListaDeViajes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListaDeViajes_CellContentClick);
             // 
             // label17
             // 
@@ -427,6 +468,152 @@
             this.label17.Size = new System.Drawing.Size(88, 13);
             this.label17.TabIndex = 5;
             this.label17.Text = "Total de registros";
+            // 
+            // lblIdRuta
+            // 
+            this.lblIdRuta.AutoSize = true;
+            this.lblIdRuta.Location = new System.Drawing.Point(752, 75);
+            this.lblIdRuta.Name = "lblIdRuta";
+            this.lblIdRuta.Size = new System.Drawing.Size(48, 13);
+            this.lblIdRuta.TabIndex = 28;
+            this.lblIdRuta.Text = "label19";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(883, 29);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(69, 13);
+            this.label19.TabIndex = 29;
+            this.label19.Text = "Expedicion";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(846, 72);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(106, 13);
+            this.label20.TabIndex = 30;
+            this.label20.Text = "Nombre Operador";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(891, 114);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(61, 13);
+            this.label21.TabIndex = 31;
+            this.label21.Text = "Direccion";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(871, 150);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(81, 13);
+            this.label22.TabIndex = 32;
+            this.label22.Text = "Estatus Viaje";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(871, 190);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(76, 13);
+            this.label23.TabIndex = 33;
+            this.label23.Text = "Usuario Alta";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(876, 231);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(69, 13);
+            this.label24.TabIndex = 34;
+            this.label24.Text = "Tipo Cobro";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(895, 263);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(50, 13);
+            this.label25.TabIndex = 35;
+            this.label25.Text = "Factura";
+            // 
+            // txtExpedicion
+            // 
+            this.txtExpedicion.Location = new System.Drawing.Point(973, 26);
+            this.txtExpedicion.Name = "txtExpedicion";
+            this.txtExpedicion.Size = new System.Drawing.Size(61, 20);
+            this.txtExpedicion.TabIndex = 36;
+            // 
+            // txtOperador
+            // 
+            this.txtOperador.Location = new System.Drawing.Point(973, 68);
+            this.txtOperador.Name = "txtOperador";
+            this.txtOperador.Size = new System.Drawing.Size(241, 20);
+            this.txtOperador.TabIndex = 37;
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(973, 111);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(100, 20);
+            this.txtDireccion.TabIndex = 38;
+            // 
+            // txtEstatusViaje
+            // 
+            this.txtEstatusViaje.Location = new System.Drawing.Point(973, 147);
+            this.txtEstatusViaje.Name = "txtEstatusViaje";
+            this.txtEstatusViaje.Size = new System.Drawing.Size(100, 20);
+            this.txtEstatusViaje.TabIndex = 39;
+            // 
+            // txtUsuarioAlta
+            // 
+            this.txtUsuarioAlta.Location = new System.Drawing.Point(973, 183);
+            this.txtUsuarioAlta.Name = "txtUsuarioAlta";
+            this.txtUsuarioAlta.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuarioAlta.TabIndex = 40;
+            // 
+            // txtTipoCobro
+            // 
+            this.txtTipoCobro.Location = new System.Drawing.Point(973, 224);
+            this.txtTipoCobro.Name = "txtTipoCobro";
+            this.txtTipoCobro.Size = new System.Drawing.Size(100, 20);
+            this.txtTipoCobro.TabIndex = 41;
+            // 
+            // txtFactura
+            // 
+            this.txtFactura.Location = new System.Drawing.Point(973, 256);
+            this.txtFactura.Name = "txtFactura";
+            this.txtFactura.Size = new System.Drawing.Size(100, 20);
+            this.txtFactura.TabIndex = 42;
+            // 
+            // txtNumeroGuia
+            // 
+            this.txtNumeroGuia.Location = new System.Drawing.Point(1096, 256);
+            this.txtNumeroGuia.Name = "txtNumeroGuia";
+            this.txtNumeroGuia.Size = new System.Drawing.Size(209, 20);
+            this.txtNumeroGuia.TabIndex = 43;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(1093, 186);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(44, 13);
+            this.label26.TabIndex = 44;
+            this.label26.Text = "Venta ";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(1093, 224);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(35, 13);
+            this.label27.TabIndex = 45;
+            this.label27.Text = "Flete";
             // 
             // frmDetalleViajes
             // 
@@ -454,25 +641,25 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtFolio;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtKilometros;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtSucursal;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtDestino;
+        private System.Windows.Forms.TextBox txtOrigen;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumbreRuta;
+        private System.Windows.Forms.TextBox txtDolly;
+        private System.Windows.Forms.TextBox txtRemolque2;
+        private System.Windows.Forms.TextBox txtRemolque1;
+        private System.Windows.Forms.TextBox txtFechaCaptura;
+        private System.Windows.Forms.TextBox txtFechaCita;
+        private System.Windows.Forms.TextBox txtUnidad;
+        private System.Windows.Forms.TextBox txtCodigoArea;
+        private System.Windows.Forms.TextBox txtNumeroViaje;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -492,5 +679,25 @@
         private System.Windows.Forms.DateTimePicker txtFechaInicio;
         private System.Windows.Forms.DataGridView ListaDeViajes;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblIdRuta;
+        private System.Windows.Forms.TextBox txtNumeroGuia;
+        private System.Windows.Forms.TextBox txtFactura;
+        private System.Windows.Forms.TextBox txtTipoCobro;
+        private System.Windows.Forms.TextBox txtUsuarioAlta;
+        private System.Windows.Forms.TextBox txtEstatusViaje;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtOperador;
+        private System.Windows.Forms.TextBox txtExpedicion;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.ToolTip toolVenta;
+        private System.Windows.Forms.ToolTip toolFlete;
     }
 }

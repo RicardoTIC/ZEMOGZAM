@@ -29,8 +29,8 @@ namespace Modelo
         public int km { get; set; }
         public string folio { get; set; }
         public string numeroGuia { get; set; }
-        public int flete { get; set; }
-        public int venta { get; set; }
+        public float flete { get; set; }
+        public float venta { get; set; }
         public string expedicion { get; set; }
         public string nombreOperador { get; set; }
         public int id_operador { get; set; }
