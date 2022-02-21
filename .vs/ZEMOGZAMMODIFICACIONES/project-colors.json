@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "97dc0253-096a-4981-a5f7-a8fd4126d52b": {
+      "ProjectGuid": "97dc0253-096a-4981-a5f7-a8fd4126d52b",
+      "DisplayName": "ZEMOGZAMMODIFICACIONES",
+      "ColorIndex": 0
+    },
+    "610da858-6855-4e71-8ae1-83e4224077a4": {
+      "ProjectGuid": "610da858-6855-4e71-8ae1-83e4224077a4",
+      "DisplayName": "CapaDatos",
+      "ColorIndex": 1
+    },
+    "bdfa3cf8-a5de-4b0f-9e83-ed47c39085fb": {
+      "ProjectGuid": "bdfa3cf8-a5de-4b0f-9e83-ed47c39085fb",
+      "DisplayName": "Modelo",
+      "ColorIndex": 2
+    },
+    "9e48457d-18c8-4651-b58f-6f53b19f7646": {
+      "ProjectGuid": "9e48457d-18c8-4651-b58f-6f53b19f7646",
+      "DisplayName": "CapaNegocio",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

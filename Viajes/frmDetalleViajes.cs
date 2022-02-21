@@ -23,6 +23,9 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
         public frmDetalleViajes()
         {
             InitializeComponent();
+            txtFechaInicio.Value = new DateTime(2022,01,01);
+            txtFechaFinal.Value = new DateTime(2022 ,01 ,01);
+
 
         }
 
@@ -84,13 +87,19 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
                 txtNumeroGuia.Text = ListaDeViajes[21, fila].Value.ToString();
                 txtFolio.Text = ListaDeViajes[20, fila].Value.ToString();
                 txtFactura.Text = ListaDeViajes[45, fila].Value.ToString();
+                lblEstatusFacturado.Text = ListaDeViajes[46,fila].Value.ToString();
+
 
                 toolVenta.SetToolTip(txtNumbreRuta, ListaDeViajes[23, fila].Value.ToString());
 
                 viajes.venta = float.Parse(ListaDeViajes[23, fila].Value.ToString());
                 viajes.flete = float.Parse(ListaDeViajes[22, fila].Value.ToString());
-                viajes.nombreOperador = ListaDeViajes[9, fila].Value.ToString();
-                    
+                viajes.nombreRuta = ListaDeViajes[9, fila].Value.ToString();
+                viajes.id_ruta = ListaDeViajes[10, fila].Value.ToString();
+                viajes.destino = ListaDeViajes[12, fila].Value.ToString();
+                viajes.origen = ListaDeViajes[11, fila].Value.ToString();
+                viajes.codigoArea = int.Parse( ListaDeViajes[1, fila].Value.ToString());
+
             }
             catch (Exception ex)
             {
@@ -103,8 +112,17 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
         private void txtNumbreRuta_MouseHover(object sender, EventArgs e)
         {
 
-            frmDetalleViaje frm = new frmDetalleViaje(viajes);
+            frmDetalleViajeRutasConvenios frm = new frmDetalleViajeRutasConvenios(viajes);
             frm.ShowDialog();
+
+        }
+
+        private void txtBuscar_Enter(object sender, EventArgs e)
+        {
+            
+
+            viajes.buscardor = txtBuscar.Text;
+            mostrar(viajes);
 
         }
     }

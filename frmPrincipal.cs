@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZEMOGZAMMODIFICACIONES.Viajes;
+using ZEMOGZAMMODIFICACIONES.Covenios;
 using Modelo;
 namespace ZEMOGZAMMODIFICACIONES
 {
@@ -24,10 +25,14 @@ namespace ZEMOGZAMMODIFICACIONES
 
         private void ShowNewForm(object sender, EventArgs e)
         {
-            Form childForm = new Form();
-            childForm.MdiParent = this;
-            childForm.Text = "Ventana " + childFormNumber++;
-            childForm.Show();
+            frmConvenios hijo = new frmConvenios();
+            hijo.MdiParent = this;
+            hijo.Show();
+
+            //Form childForm = new Form();
+            //childForm.MdiParent = this;
+            //childForm.Text = "Ventana " + childFormNumber++;
+            //childForm.Show();
         }
 
         private void OpenFile(object sender, EventArgs e)
@@ -121,6 +126,11 @@ namespace ZEMOGZAMMODIFICACIONES
             viajes.Show();
 
 
+
+        }
+
+        private void windowsMenu_Click(object sender, EventArgs e)
+        {
 
         }
     }

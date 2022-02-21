@@ -49,3 +49,5 @@ C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONE
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.exe
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.pdb
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViaje.resources
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Covenios.frmConvenios.resources
+C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajeRutasConvenios.resources
