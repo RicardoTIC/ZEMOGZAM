@@ -60,8 +60,8 @@ namespace ZEMOGZAMMODIFICACIONES
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
             Login.frmLogin frmLogin = new Login.frmLogin();
-            frmLogin.Show(); 
-            this.Close();
+            frmLogin.Show();
+            Application.Exit();
         }
 
         private void CutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -76,15 +76,8 @@ namespace ZEMOGZAMMODIFICACIONES
         {
         }
 
-        private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
-        }
 
-        private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
-        }
+
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -116,13 +109,9 @@ namespace ZEMOGZAMMODIFICACIONES
 
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Abriendo");
+            
             frmDetalleViajes viajes = new frmDetalleViajes();
-            
-            
-            
             viajes.MdiParent = this;
-
             viajes.Show();
 
 
@@ -132,6 +121,16 @@ namespace ZEMOGZAMMODIFICACIONES
         private void windowsMenu_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

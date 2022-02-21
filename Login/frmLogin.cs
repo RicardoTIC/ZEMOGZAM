@@ -30,7 +30,7 @@ namespace ZEMOGZAMMODIFICACIONES.Login
 
             if (validacion)
             {
-                MessageBox.Show("Bienvenido " + user.id_usuario + " Usuario : " + user.id_grupo);
+                ////MessageBox.Show("Bienvenido " + user.id_usuario + " Usuario : " + user.id_grupo);
 
                 frmPrincipal frm = new frmPrincipal(user);
                 frm.Show();
@@ -87,7 +87,9 @@ namespace ZEMOGZAMMODIFICACIONES.Login
 
             if (resultado == DialogResult.Yes)
             {
-                this.Close();
+                
+                Application.Exit();
+                //this.Close();
             }
 
            

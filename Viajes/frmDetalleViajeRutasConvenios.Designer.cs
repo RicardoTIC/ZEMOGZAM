@@ -43,9 +43,9 @@
             this.txtDestinatario = new System.Windows.Forms.TextBox();
             this.txtOriginario = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -182,14 +182,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Informacion convenio";
             // 
-            // label5
+            // label7
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "codigo convenio";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(185, 81);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Originario";
             // 
             // label6
             // 
@@ -200,16 +200,16 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "Destinatario";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(185, 81);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Originario";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "codigo convenio";
             // 
-            // frmDetalleViaje
+            // frmDetalleViajeRutasConvenios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -226,7 +226,7 @@
             this.Controls.Add(this.txtVenta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmDetalleViaje";
+            this.Name = "frmDetalleViajeRutasConvenios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle de ruta";
             this.Load += new System.EventHandler(this.frmDetalleViaje_Load);

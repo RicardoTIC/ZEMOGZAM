@@ -27,6 +27,7 @@ namespace ZEMOGZAMMODIFICACIONES.Covenios
         {
             
             cboSucursal.DataSource = func.cargarComboBox();
+
             
             cboSucursal.DisplayMember = "nombrecorto";
             cboSucursal.ValueMember = "id_area";
@@ -35,7 +36,9 @@ namespace ZEMOGZAMMODIFICACIONES.Covenios
 
         private void frmConvenios_Load(object sender, EventArgs e)
         {
+            
             cargarComboSucursal();
+            
             lblTotalRegistros.Text =  ListaCovenios.RowCount.ToString();
 
         }
@@ -57,13 +60,26 @@ namespace ZEMOGZAMMODIFICACIONES.Covenios
         private void btnBuscar_Click(object sender, EventArgs e)
         {
 
+            if (cboSucursal.SelectedIndex == 0)
+            {
+                MessageBox.Show("Selecciona una sucursal");
+                return;
+            }
+
            
-            convenio.desc_convenio = txtBuscar.Text;
+            convenio.desc_convenio = txtBuscar.Text;         
             convenio.id_area_zemog = int.Parse(cboSucursal.SelectedValue.ToString());
-  
+       
+            
+        
             mostrar(convenio);
             lblTotalRegistros.Text = ListaCovenios.RowCount.ToString();
 
+        }
+
+        private void txtBuscar_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("Abriendo formulario");
         }
     }
 }

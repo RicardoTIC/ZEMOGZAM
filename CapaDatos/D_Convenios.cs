@@ -81,12 +81,13 @@ namespace CapaDatos
         {
             DataTable dt;
             string query;
-            query = "select * from general_area";
+            query = "select 0 id_area, 'Seleciona la sucursal' as nombrecorto union select id_area, nombrecorto from general_area where nombre != 'SIN ASIGNAR'";
+
             SqlCommand cmd = new SqlCommand(query, con);
             con.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             dt = new DataTable();
-
+   
             adapter.Fill(dt);
             con.Close();
             return dt;
@@ -98,6 +99,7 @@ namespace CapaDatos
             List<Sucursal> listas = new List<Sucursal>();
             
             string query = "";
+            Sucursal objeto;
             try
             {
                 query = "select * from general_area";
@@ -105,10 +107,14 @@ namespace CapaDatos
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
 
+                objeto = new Sucursal();
+                objeto.id_area = 0;
+                objeto.nombrecorto = "Selecciona una sucursal";
+                listas.Add(objeto); 
 
                 while (reader.Read())
                 {
-                    Sucursal objeto = new Sucursal();
+                    objeto = new Sucursal();
                     objeto.id_area = reader.GetInt32(0);
                     objeto.nombrecorto = reader.GetString(19);
                     listas.Add(objeto);
