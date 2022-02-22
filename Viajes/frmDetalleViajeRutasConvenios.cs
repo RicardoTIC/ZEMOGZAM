@@ -33,20 +33,30 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
             con.id_ruta = int.Parse(obj.id_ruta);
             con.id_area_zemog = obj.codigoArea;
 
-            
+            cargaCodigoConvenio();
 
-            foreach (var item in convenios.lista_Viajes(con) )
-            {
-                txtCodigoConvenio.Text = item.id_convenio.ToString() ;
-                txtOriginario.Text = item.Destinatario;
-                txtDestinatario.Text = item.Destinatario; 
-                Console.WriteLine(item);
-            }
-                
-                 
+
+
         }
 
+        void cargaCodigoConvenio()
+        {
+            try
+            {
+                foreach (var item in convenios.lista_Viajes(con))
+                {
+                    txtCodigoConvenio.Text = item.id_convenio.ToString();
+                    txtOriginario.Text = item.Destinatario;
+                    txtDestinatario.Text = item.Destinatario;
+                    Console.WriteLine(item);
+                }
+            }
+            catch (Exception ex )
+            {
+                MessageBox.Show(ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
 
+        }
         private void frmDetalleViaje_Load(object sender, EventArgs e)
         {
 
