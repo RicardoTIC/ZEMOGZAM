@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
 using CapaNegocio;
+using Helpers;
 
 namespace ZEMOGZAMMODIFICACIONES.Viajes
 {
@@ -17,38 +18,71 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
 
         C_Convenios convenios = new C_Convenios();
         Convenios con = new Convenios();
-
+        frmAlerta alertasPersonalizadas = new frmAlerta();  
 
         public frmDetalleViajeRutasConvenios(Viaje obj)
         {
             InitializeComponent();
-            txtVenta.Text = obj.venta.ToString();
-            txtFlete.Text = obj.flete.ToString();
 
-            lblDestino.Text ="Origen " + obj.origen;
-            lblOrigen.Text ="Destino " + obj.destino;
-            lblIdRuta.Text = obj.id_ruta;
-            txtRutas.Text = obj.nombreRuta;
-            lblCodigoRuta.Text = obj.codigoArea.ToString();
-            con.id_ruta = int.Parse(obj.id_ruta);
-            con.id_area_zemog = obj.codigoArea;
+            cargarInformacionRuta(obj);
+            cargaCodigoConvenio();
 
-            
 
-            foreach (var item in convenios.lista_Viajes(con) )
-            {
-                txtCodigoConvenio.Text = item.id_convenio.ToString() ;
-                txtOriginario.Text = item.Destinatario;
-                txtDestinatario.Text = item.Destinatario; 
-                Console.WriteLine(item);
-            }
-                
-                 
+
         }
 
+        void cargarInformacionRuta(Viaje obj)
+        {
+            try
+            {
+                txtVenta.Text = obj.venta.ToString();
+                txtFlete.Text = obj.flete.ToString();
 
+                lblDestino.Text = "Origen " + obj.origen;
+                lblOrigen.Text = "Destino " + obj.destino;
+                lblIdRuta.Text = obj.id_ruta;
+                txtRutas.Text = obj.nombreRuta;
+                lblCodigoRuta.Text = obj.codigoArea.ToString();
+                con.id_ruta = int.Parse(obj.id_ruta);
+                con.id_area_zemog = obj.codigoArea;
+            }
+            catch (Exception ex)
+            {
+                alertasPersonalizadas.Mensaje("Error al ingresar los datos " + ex.Message, "Error", "Informativo");
+                alertasPersonalizadas.ShowDialog();
+               
+            }
+
+
+        }
+
+        void cargaCodigoConvenio()
+        {
+            try
+            {
+                foreach (var item in convenios.lista_Viajes(con))
+                {
+                    txtCodigoConvenio.Text = item.id_convenio.ToString();
+                    txtOriginario.Text = item.Destinatario;
+                    txtDestinatario.Text = item.Destinatario;
+                    Console.WriteLine(item);
+                }
+            }
+            catch (Exception ex )
+            {
+                MessageBox.Show(ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+
+        }
         private void frmDetalleViaje_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            alertasPersonalizadas.Mensaje("Error en el mensaje","Error","Error");
+            alertasPersonalizadas.ShowDialog();
 
         }
     }

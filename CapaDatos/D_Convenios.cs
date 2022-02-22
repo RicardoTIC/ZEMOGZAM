@@ -20,8 +20,6 @@ namespace CapaDatos
         {
             List<Convenios> listas = new List<Convenios>();
 
-            try
-            {
                 SqlCommand cmd = new SqlCommand("sp_ZEMOG_consultar_convenio", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@CodigoRuta", obj.id_ruta);
@@ -35,18 +33,11 @@ namespace CapaDatos
                     obj.Remitente = reader.GetString(5);
                     obj.Destinatario = reader.GetString(7);
                     listas.Add(obj);
-                }
+                }     
+                // Cerramos la coneixon 
 
-            }
-            catch (Exception ex )
-            {
-                Console.WriteLine(ex.Message);
-                listas = null;
-            }
-            finally
-            {
-                con.Close();
-            }
+                con.Close();    
+
             return listas;
         }
 
@@ -63,12 +54,7 @@ namespace CapaDatos
             cmd.Parameters.AddWithValue("@NombreRuta", obj.desc_convenio);
                 
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            
-
-
             adapter.Fill(dt);
-
-
 
             con.Close();
             return dt;
