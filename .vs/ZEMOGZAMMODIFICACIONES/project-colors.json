@@ -20,7 +20,22 @@
       "ProjectGuid": "9e48457d-18c8-4651-b58f-6f53b19f7646",
       "DisplayName": "CapaNegocio",
       "ColorIndex": 3
+    },
+    "8be50d67-2752-48a8-8ee7-6b73b7fb2ba3": {
+      "ProjectGuid": "8be50d67-2752-48a8-8ee7-6b73b7fb2ba3",
+      "DisplayName": "Helpers",
+      "ColorIndex": 4
+    },
+    "0d9690f7-d663-4b89-96d3-0306bd5a52dc": {
+      "ProjectGuid": "0d9690f7-d663-4b89-96d3-0306bd5a52dc",
+      "DisplayName": "Helpers",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
 using CapaNegocio;
-using Helpers;
+
 
 namespace ZEMOGZAMMODIFICACIONES.Viajes
 {
@@ -18,7 +18,7 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
 
         C_Convenios convenios = new C_Convenios();
         Convenios con = new Convenios();
-        frmAlerta alertasPersonalizadas = new frmAlerta();  
+
 
         public frmDetalleViajeRutasConvenios(Viaje obj)
         {
@@ -26,8 +26,6 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
 
             cargarInformacionRuta(obj);
             cargaCodigoConvenio();
-
-
 
         }
 
@@ -48,9 +46,7 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
             }
             catch (Exception ex)
             {
-                alertasPersonalizadas.Mensaje("Error al ingresar los datos " + ex.Message, "Error", "Informativo");
-                alertasPersonalizadas.ShowDialog();
-               
+                MessageBox.Show("Error al asignar datos " + ex.Message);
             }
 
 
@@ -81,8 +77,7 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            alertasPersonalizadas.Mensaje("Error en el mensaje","Error","Error");
-            alertasPersonalizadas.ShowDialog();
+
 
         }
     }
