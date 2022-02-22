@@ -52,6 +52,3 @@ C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Covenios.frmCo
 C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajeRutasConvenios.resources
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Covenios.frmConvenios.resources
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajeRutasConvenios.resources
-C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Helpers.exe
-C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Helpers.pdb
-C:\Users\Ricardo\Documents\ZEMOG\bin\Debug\Helpers.exe.config
