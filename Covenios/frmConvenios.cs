@@ -81,5 +81,28 @@ namespace ZEMOGZAMMODIFICACIONES.Covenios
         {
             MessageBox.Show("Abriendo formulario");
         }
+
+        private void ListaCovenios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            int fila = ListaCovenios.CurrentCell.RowIndex;
+
+
+            try
+            {
+                txtidconvenio.Text = ListaCovenios[0, fila].Value.ToString();
+                txtNombreRuta.Text = ListaCovenios[15, fila].Value.ToString();
+                txtRemitente.Text = ListaCovenios[5, fila].Value.ToString();
+                txtidconvenio.Text = ListaCovenios[4, fila].Value.ToString();
+                txtDestinatario.Text = ListaCovenios[7, fila].Value.ToString();
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al seleccionar el datos " + ex.Message);
+                
+            }
+
+        }
     }
 }

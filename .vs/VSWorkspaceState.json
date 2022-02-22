@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CapaDatos",
     "\\Login",
     "\\Viajes"
   ],
-  "SelectedNode": "\\Viajes\\frmDetalleViaje.cs",
+  "SelectedNode": "\\CapaDatos\\D_Convenios.cs",
   "PreviewInSolutionExplorer": false
 }

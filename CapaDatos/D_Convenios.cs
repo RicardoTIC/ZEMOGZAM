@@ -102,7 +102,7 @@ namespace CapaDatos
             Sucursal objeto;
             try
             {
-                query = "select * from general_area";
+                query = "select 0,'Selecciona una sucursal', union select id_area,nombrecorto from general_area";
                 SqlCommand cmd = new SqlCommand(query,con);
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();

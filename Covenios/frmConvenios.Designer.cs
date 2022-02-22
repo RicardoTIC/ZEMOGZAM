@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.cboSucursal = new System.Windows.Forms.ComboBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
@@ -36,20 +37,16 @@
             this.ListaCovenios = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDestinatario = new System.Windows.Forms.TextBox();
+            this.txtidDestinatario = new System.Windows.Forms.TextBox();
+            this.txtidRemitente = new System.Windows.Forms.TextBox();
+            this.txtRemitente = new System.Windows.Forms.TextBox();
+            this.txtNombreRuta = new System.Windows.Forms.TextBox();
+            this.txtidconvenio = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -61,7 +58,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblTotalRegistros = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaCovenios)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -82,6 +78,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de convenios";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(384, 20);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(108, 13);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Nombre de la ruta";
             // 
             // cboSucursal
             // 
@@ -128,24 +133,21 @@
             this.ListaCovenios.Name = "ListaCovenios";
             this.ListaCovenios.Size = new System.Drawing.Size(916, 214);
             this.ListaCovenios.TabIndex = 0;
+            this.ListaCovenios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListaCovenios_CellContentClick);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox10);
             this.groupBox2.Controls.Add(this.textBox9);
             this.groupBox2.Controls.Add(this.textBox8);
             this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.txtDestinatario);
+            this.groupBox2.Controls.Add(this.txtidDestinatario);
+            this.groupBox2.Controls.Add(this.txtidRemitente);
+            this.groupBox2.Controls.Add(this.txtRemitente);
+            this.groupBox2.Controls.Add(this.txtNombreRuta);
+            this.groupBox2.Controls.Add(this.txtidconvenio);
             this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label9);
@@ -165,35 +167,21 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(808, 157);
+            this.textBox12.Location = new System.Drawing.Point(354, 138);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
+            this.textBox12.Size = new System.Drawing.Size(310, 20);
             this.textBox12.TabIndex = 23;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(808, 99);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 22;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(808, 42);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 21;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(551, 154);
+            this.textBox9.Location = new System.Drawing.Point(551, 88);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 20);
             this.textBox9.TabIndex = 20;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(551, 98);
+            this.textBox8.Location = new System.Drawing.Point(747, 39);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 19;
@@ -205,101 +193,83 @@
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 18;
             // 
-            // textBox6
+            // txtDestinatario
             // 
-            this.textBox6.Location = new System.Drawing.Point(354, 92);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 17;
+            this.txtDestinatario.Location = new System.Drawing.Point(354, 92);
+            this.txtDestinatario.Name = "txtDestinatario";
+            this.txtDestinatario.Size = new System.Drawing.Size(100, 20);
+            this.txtDestinatario.TabIndex = 17;
             // 
-            // textBox5
+            // txtidDestinatario
             // 
-            this.textBox5.Location = new System.Drawing.Point(354, 42);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 16;
+            this.txtidDestinatario.Location = new System.Drawing.Point(354, 42);
+            this.txtidDestinatario.Name = "txtidDestinatario";
+            this.txtidDestinatario.Size = new System.Drawing.Size(100, 20);
+            this.txtidDestinatario.TabIndex = 16;
             // 
-            // textBox4
+            // txtidRemitente
             // 
-            this.textBox4.Location = new System.Drawing.Point(119, 176);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 15;
+            this.txtidRemitente.Location = new System.Drawing.Point(119, 176);
+            this.txtidRemitente.Name = "txtidRemitente";
+            this.txtidRemitente.Size = new System.Drawing.Size(100, 20);
+            this.txtidRemitente.TabIndex = 15;
             // 
-            // textBox3
+            // txtRemitente
             // 
-            this.textBox3.Location = new System.Drawing.Point(119, 142);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 14;
+            this.txtRemitente.Location = new System.Drawing.Point(119, 142);
+            this.txtRemitente.Name = "txtRemitente";
+            this.txtRemitente.Size = new System.Drawing.Size(100, 20);
+            this.txtRemitente.TabIndex = 14;
             // 
-            // textBox2
+            // txtNombreRuta
             // 
-            this.textBox2.Location = new System.Drawing.Point(119, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 13;
+            this.txtNombreRuta.Location = new System.Drawing.Point(119, 92);
+            this.txtNombreRuta.Name = "txtNombreRuta";
+            this.txtNombreRuta.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreRuta.TabIndex = 13;
             // 
-            // textBox1
+            // txtidconvenio
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 12;
+            this.txtidconvenio.Location = new System.Drawing.Point(119, 39);
+            this.txtidconvenio.Name = "txtidconvenio";
+            this.txtidconvenio.Size = new System.Drawing.Size(100, 20);
+            this.txtidconvenio.TabIndex = 12;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(741, 157);
+            this.label14.Location = new System.Drawing.Point(242, 142);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 13);
+            this.label14.Size = new System.Drawing.Size(99, 13);
             this.label14.TabIndex = 11;
-            this.label14.Text = "label14";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(741, 98);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 13);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "label13";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(741, 42);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 13);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "label12";
+            this.label14.Text = "Nombre de Ruta";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(480, 158);
+            this.label11.Location = new System.Drawing.Point(680, 46);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 13);
+            this.label11.Size = new System.Drawing.Size(50, 13);
             this.label11.TabIndex = 8;
-            this.label11.Text = "label11";
+            this.label11.Text = "Destino";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(480, 98);
+            this.label10.Location = new System.Drawing.Point(482, 95);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 13);
+            this.label10.Size = new System.Drawing.Size(44, 13);
             this.label10.TabIndex = 7;
-            this.label10.Text = "label10";
+            this.label10.Text = "Origen";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(480, 42);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 13);
+            this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 6;
-            this.label9.Text = "label9";
+            this.label9.Text = "Cliente";
             // 
             // label8
             // 
@@ -373,15 +343,6 @@
             this.lblTotalRegistros.TabIndex = 3;
             this.lblTotalRegistros.Text = "label3";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(384, 20);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(108, 13);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Nombre de la ruta";
-            // 
             // frmConvenios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -417,20 +378,16 @@
         private System.Windows.Forms.ComboBox cboSucursal;
         private System.Windows.Forms.Label lblTotalRegistros;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDestinatario;
+        private System.Windows.Forms.TextBox txtidDestinatario;
+        private System.Windows.Forms.TextBox txtidRemitente;
+        private System.Windows.Forms.TextBox txtRemitente;
+        private System.Windows.Forms.TextBox txtNombreRuta;
+        private System.Windows.Forms.TextBox txtidconvenio;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
