@@ -9,8 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZEMOGZAMMODIFICACIONES.Viajes;
 using ZEMOGZAMMODIFICACIONES.Covenios;
+using ZEMOGZAMMODIFICACIONES.Vistas.Sucursales;
+using ZEMOGZAMMODIFICACIONES.Vistas.Resumen_de_kilometros;
+
 using Modelo;
+
 namespace ZEMOGZAMMODIFICACIONES
+
 {
     public partial class frmPrincipal : Form
     {
@@ -59,17 +64,16 @@ namespace ZEMOGZAMMODIFICACIONES
 
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
-            Login.frmLogin frmLogin = new Login.frmLogin();
-            frmLogin.Show();
-            Application.Exit();
-        }
 
-        private void CutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+            
+           
         }
 
         private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Login.frmLogin frmLogin = new Login.frmLogin();
+            frmLogin.Show();
+            this.Close();
         }
 
         private void PasteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -81,7 +85,10 @@ namespace ZEMOGZAMMODIFICACIONES
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LayoutMdi(MdiLayout.Cascade);
+            frmSucursal frm = new frmSucursal();
+            frm.MdiParent = this;
+            frm.Show();
+
         }
 
         private void TileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -131,6 +138,15 @@ namespace ZEMOGZAMMODIFICACIONES
         private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void resumenDeKilometrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmResumenViajes frm = new frmResumenViajes();
+
+            frm.MdiParent = this;
+            frm.Show();
+
         }
     }
 }

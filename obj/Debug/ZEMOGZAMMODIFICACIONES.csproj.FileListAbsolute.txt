@@ -52,3 +52,5 @@ C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Covenios.frmCo
 C:\Users\Ricardo\Documents\ZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajeRutasConvenios.resources
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Covenios.frmConvenios.resources
 C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Viajes.frmDetalleViajeRutasConvenios.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Vistas.Sucursales.frmSucursal.resources
+C:\Users\Ricardo Herrera\Documents\ProyectoZEMOG\obj\Debug\ZEMOGZAMMODIFICACIONES.Vistas.Resumen_de_kilometros.frmResumenViajes.resources

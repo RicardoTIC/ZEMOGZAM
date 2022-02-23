@@ -23,8 +23,10 @@ namespace Modelo
         public string nombrecorto { get; set; }
         public double presupuesto { get; set; }
         public int costoPorEquipo { get; set; }
-        public int numeroUnidades { get; set; } 
-
+        public int numeroUnidades { get; set; }
+        public string sucursal { get; set; }
+        public int accion { get; set; }
+        public string buscador { get; set; }
 
     }
 }

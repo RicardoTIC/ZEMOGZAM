@@ -92,7 +92,7 @@ namespace ZEMOGZAMMODIFICACIONES.Viajes
 
                 toolVenta.SetToolTip(txtNumbreRuta, ListaDeViajes[23, fila].Value.ToString());
 
-                viajes.venta = float.Parse(ListaDeViajes[23, fila].Value.ToString());
+                viajes.venta = float.Parse( String.Format("{0:C2}", ListaDeViajes[23, fila].Value.ToString()));
                 viajes.flete = float.Parse(ListaDeViajes[22, fila].Value.ToString());
                 viajes.nombreRuta = ListaDeViajes[9, fila].Value.ToString();
                 viajes.id_ruta = ListaDeViajes[10, fila].Value.ToString();

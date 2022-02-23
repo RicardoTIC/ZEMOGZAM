@@ -45,6 +45,10 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resumenDeKilometrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.capiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturasCanceladasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,6 +56,7 @@
             this.tileHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arrangeIconsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -64,11 +69,6 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.lblInformacion = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.resumenDeKilometrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.capiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturasCanceladasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.operadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -184,8 +184,8 @@
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.exitToolStripMenuItem.Text = "&Salir";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
+            this.exitToolStripMenuItem.Text = "Cerrar Sesion";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.CopyToolStripMenuItem_Click);
             // 
             // toolsMenu
             // 
@@ -202,9 +202,34 @@
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.optionsToolStripMenuItem.Text = "Detalle de viajes";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
+            // 
+            // resumenDeKilometrosToolStripMenuItem
+            // 
+            this.resumenDeKilometrosToolStripMenuItem.Name = "resumenDeKilometrosToolStripMenuItem";
+            this.resumenDeKilometrosToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.resumenDeKilometrosToolStripMenuItem.Text = "Resumen de kilometros";
+            this.resumenDeKilometrosToolStripMenuItem.Click += new System.EventHandler(this.resumenDeKilometrosToolStripMenuItem_Click);
+            // 
+            // capiToolStripMenuItem
+            // 
+            this.capiToolStripMenuItem.Name = "capiToolStripMenuItem";
+            this.capiToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.capiToolStripMenuItem.Text = "Capi";
+            // 
+            // facturasToolStripMenuItem
+            // 
+            this.facturasToolStripMenuItem.Name = "facturasToolStripMenuItem";
+            this.facturasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.facturasToolStripMenuItem.Text = "Facturas";
+            // 
+            // facturasCanceladasToolStripMenuItem
+            // 
+            this.facturasCanceladasToolStripMenuItem.Name = "facturasCanceladasToolStripMenuItem";
+            this.facturasCanceladasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.facturasCanceladasToolStripMenuItem.Text = "Facturas Canceladas";
             // 
             // windowsMenu
             // 
@@ -224,7 +249,7 @@
             // newWindowToolStripMenuItem
             // 
             this.newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
-            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.newWindowToolStripMenuItem.Text = "Convenios";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.ShowNewForm);
             // 
@@ -262,6 +287,12 @@
             this.arrangeIconsToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.arrangeIconsToolStripMenuItem.Text = "Cartas Portes";
             this.arrangeIconsToolStripMenuItem.Click += new System.EventHandler(this.ArrangeIconsToolStripMenuItem_Click);
+            // 
+            // operadoresToolStripMenuItem
+            // 
+            this.operadoresToolStripMenuItem.Name = "operadoresToolStripMenuItem";
+            this.operadoresToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.operadoresToolStripMenuItem.Text = "Operadores";
             // 
             // toolStrip
             // 
@@ -361,36 +392,6 @@
             this.lblInformacion.Name = "lblInformacion";
             this.lblInformacion.Size = new System.Drawing.Size(42, 17);
             this.lblInformacion.Text = "Estado";
-            // 
-            // resumenDeKilometrosToolStripMenuItem
-            // 
-            this.resumenDeKilometrosToolStripMenuItem.Name = "resumenDeKilometrosToolStripMenuItem";
-            this.resumenDeKilometrosToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.resumenDeKilometrosToolStripMenuItem.Text = "Resumen de kilometros";
-            // 
-            // capiToolStripMenuItem
-            // 
-            this.capiToolStripMenuItem.Name = "capiToolStripMenuItem";
-            this.capiToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.capiToolStripMenuItem.Text = "Capi";
-            // 
-            // facturasToolStripMenuItem
-            // 
-            this.facturasToolStripMenuItem.Name = "facturasToolStripMenuItem";
-            this.facturasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.facturasToolStripMenuItem.Text = "Facturas";
-            // 
-            // facturasCanceladasToolStripMenuItem
-            // 
-            this.facturasCanceladasToolStripMenuItem.Name = "facturasCanceladasToolStripMenuItem";
-            this.facturasCanceladasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.facturasCanceladasToolStripMenuItem.Text = "Facturas Canceladas";
-            // 
-            // operadoresToolStripMenuItem
-            // 
-            this.operadoresToolStripMenuItem.Name = "operadoresToolStripMenuItem";
-            this.operadoresToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.operadoresToolStripMenuItem.Text = "Operadores";
             // 
             // frmPrincipal
             // 
