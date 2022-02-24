@@ -46,6 +46,7 @@ namespace CapaDatos
             DataTable dt;
             dt = new DataTable();
 
+           
 
 
             SqlCommand cmd = new SqlCommand("sp_ZEMOG_convenios", con);

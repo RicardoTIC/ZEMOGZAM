@@ -91,11 +91,21 @@ namespace ZEMOGZAMMODIFICACIONES.Covenios
             try
             {
                 txtidconvenio.Text = ListaCovenios[0, fila].Value.ToString();
-                txtNombreRuta.Text = ListaCovenios[15, fila].Value.ToString();
-                txtRemitente.Text = ListaCovenios[5, fila].Value.ToString();
-                txtidconvenio.Text = ListaCovenios[4, fila].Value.ToString();
-                txtDestinatario.Text = ListaCovenios[7, fila].Value.ToString();
-                
+                txtNombreConvenio.Text = ListaCovenios[1, fila].Value.ToString();
+
+                txtidRemitente.Text = ListaCovenios[3, fila].Value.ToString();
+                txtRemitente.Text = ListaCovenios[4, fila].Value.ToString();
+                txtidDestinatario.Text = ListaCovenios[5, fila].Value.ToString();
+                txtDestinatario.Text = ListaCovenios[6, fila].Value.ToString();
+                txtNombrerRuta.Text = ListaCovenios[14, fila].Value.ToString();
+                txtOrigen.Text = ListaCovenios[10, fila].Value.ToString();
+                txtDestino.Text = ListaCovenios[12, fila].Value.ToString();
+                txtCliente.Text = ListaCovenios[8,fila].Value.ToString();
+                txtIdCliente.Text = ListaCovenios[7, fila].Value.ToString();
+                txtOperacion.Text = ListaCovenios[16, fila].Value.ToString();
+                txtFactorSencillo.Text = String.Format("{0:C:2}",ListaCovenios[20, fila].Value.ToString());
+                txtFactorFull.Text = String.Format("{0:C:2}",ListaCovenios[21, fila].Value.ToString());
+                txtTarifa.Text = ListaCovenios[25, fila].Value.ToString();
             }
             catch (Exception ex)
             {
